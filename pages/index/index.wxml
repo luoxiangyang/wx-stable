@@ -1,0 +1,47 @@
+<!--首页index.wxml-->
+
+<!-- 轮播图 -->
+<swiper indicator-dots autoplay interval="2000" circular="true">
+	<swiper-item>
+		<image src="http://122.51.238.153/static/uploads/slide_1.jpg"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="http://122.51.238.153/static/uploads/slide_2.jpg"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="http://122.51.238.153/static/uploads/slide_3.jpg"></image>
+	</swiper-item>
+</swiper>
+<!-- 乐园活动 -->
+<view class="freebox">
+	<view class="title">
+		乐园活动
+	</view>
+	<view class="content">
+		<navigator url="/pages/detail/index">
+      <image src="http://122.51.238.153/static/uploads/item_1.png"></image>
+    </navigator>
+		<view class="content-title">
+			疯狂的红包 不一样的撕名牌 大型家庭亲子 户外活动
+		</view>
+		<view class="content-time">
+			<text>200人报名</text>
+			<text class="time">本周六开始</text>
+		</view>
+    <text class="free">免费</text>
+	</view>
+  <view class="content">
+		<navigator url="">
+      <image src="http://122.51.238.153/static/uploads/item_1.png"></image>
+    </navigator>
+		<view class="content-title">
+			疯狂的红包 不一样的撕名牌 大型家庭亲子 户外活动
+		</view>
+		<view class="content-time">
+			<text>200人报名</text>
+			<text class="time">本周六开始</text>
+		</view>
+    <text class="free">免费</text>
+	</view>
+
+</view>
